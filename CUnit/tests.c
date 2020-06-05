@@ -124,6 +124,7 @@ int main(void)
         return CU_get_error();
     }
 
+    CU_automated_enable_junit_xml(CU_TRUE);
     CU_automated_run_tests();
     CU_cleanup_registry();
     return CU_get_error();
