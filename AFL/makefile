@@ -26,4 +26,3 @@ main.o: main.c min.h max.h div.h mod.h multi.h
 clean:
 	rm -rf *.o
 	rm main
-  

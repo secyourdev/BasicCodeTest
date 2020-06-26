@@ -19,3 +19,7 @@ multi.o: multi.c
 
 main.o: main.c min.h max.h div.h mod.h multi.h
 	gcc -o main.o -c main.c -W -Wall -ansi -pedantic
+	
+clean:
+	rm -rf *.o
+	rm main
