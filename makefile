@@ -1,6 +1,6 @@
 all:
 	cd AFL && ${MAKE}
-	cd Cunit && ${MAKE}
+	cd CUnit && ${MAKE}
 	cd doxygen && ${MAKE}
 	cd Gcov && ${MAKE}
 	cd Gprof && ${MAKE}
@@ -8,7 +8,7 @@ all:
 
 clean:
 	cd AFL && ${MAKE} clean
-	cd Cunit && ${MAKE} clean
+	cd CUnit && ${MAKE} clean
 	cd doxygen && ${MAKE} clean
 	cd Gcov && ${MAKE} clean
 	cd Gprof && ${MAKE} clean
